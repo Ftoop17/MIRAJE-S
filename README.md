@@ -56,9 +56,9 @@
 
 🔷 **Крипто-кошелек**:  
 `TG9835uyDZ5qtGswLJFCciqjyKAdoB5kNz`  
+
 [![QR код](https://github.com/ftoop17/miraje-s/raw/main/icons/qr.png)](https://github.com/ftoop17/miraje-s/raw/main/icons/qr.png)
 
-📌 **Кнопка "Копировать"** в интерфейсе расширения
 
 ## 👨‍💻 Автор
 
