@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MIRAJE | S</title>
+  <link rel="stylesheet" href="css/popup.css">
+</head>
+<body class="cosmic-theme">
+  <div class="container">
+    <header>
+      <h1>MIRAJE | S</h1>
+      <div class="logo"></div>
+    </header>
+    
+    <div class="control-panel">
+      <button id="takeScreenshot" class="cosmic-btn">
+        <span class="icon">📸</span>
+        <span>Сделать скриншот (M+J)</span>
+      </button>
+      
+      <div class="settings">
+        <label class="cosmic-switch">
+          <input type="checkbox" id="darkModeToggle">
+          <span class="slider"></span>
+          <span>Тёмная тема</span>
+        </label>
+        
+        <label class="cosmic-switch">
+          <input type="checkbox" id="stealthModeToggle" checked>
+          <span class="slider"></span>
+          <span>Скрытый режим</span>
+        </label>
+        
+        <div class="screenshot-options">
+          <h3>Настройки скриншота:</h3>
+          <select id="screenshotType" class="cosmic-select">
+            <option value="fullpage">Полная страница</option>
+            <option value="visible">Видимая область</option>
+            <option value="with-tabs">С вкладками браузера</option>
+            <option value="with-controls">С панелью управления</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    
+    <div class="support-section">
+      <h3>Поддержать автора:</h3>
+      <div class="crypto-wallet">
+        <div class="wallet-address" id="walletAddress">
+          TG9835uyDZ5qtGswLJFCciqjyKAdoB5kNz
+        </div>
+        <button id="copyWallet" class="cosmic-btn small">Копировать</button>
+      </div>
+      <div class="qr-code">
+        <img src="icons/qr.png" alt="QR код для перевода">
+      </div>
+      
+      <div class="social-links">
+        <h3>Соцсети автора:</h3>
+        <div class="social-buttons">
+          <a href="https://vk.com/thetemirbolatov" target="_blank" class="cosmic-btn social vk">VK</a>
+          <a href="https://instagram.com/thetemirbolatov" target="_blank" class="cosmic-btn social instagram">Instagram</a>
+          <a href="https://t.me/thetemirbolatov" target="_blank" class="cosmic-btn social telegram">Telegram</a>
+          <a href="https://github.com/ftoop17" target="_blank" class="cosmic-btn social github">GitHub</a>
+        </div>
+      </div>
+    </div>
+    
+    <footer>
+      <div class="version">v1.0.0</div>
+      <div class="author">thetemirbolatov</div>
+    </footer>
+  </div>
+  
+  <script src="js/popup.js"></script>
+  <script src="js/block.js"></script>
+</body>
+</html>
