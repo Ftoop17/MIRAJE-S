@@ -3,7 +3,6 @@
 [![Версия](https://img.shields.io/badge/Версия-1.0.0-blue.svg)](https://github.com/ftoop17/miraje-s/releases)
 [![Лицензия](https://img.shields.io/badge/Лицензия-MIT-green.svg)](LICENSE)
 
-Пароль от архива: thetemirbolatov
 
 Мощное расширение для создания скриншотов с обходом защиты, даже на сайтах где это запрещено.
 
